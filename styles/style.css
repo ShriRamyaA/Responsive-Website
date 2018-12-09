@@ -1,0 +1,267 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(to right, black, rgb(21, 224, 231), black );
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Barrio';
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: -1%;
+    text-shadow: 5px 0 0 rgb(240, 113, 9);
+}
+
+header, nav {
+    position: fixed;
+    background-color: antiquewhite;
+    width: 99%;
+    z-index: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    width: 3%;
+    height: 90%;
+    border-radius: 50%;
+    border: 2px solid; 
+}
+
+nav {
+    overflow: hidden;
+    margin: 9% 0 1% 0;
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    margin: 3%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: darkorange;
+}
+
+#parallax1, #parallax2, #parallax3{
+    background-position-y: 170px;
+    min-height: 600px;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 65%;
+    z-index: -5;
+}
+
+#parallax1 {
+    background-image: url("../images/parallax1.jpeg");
+}
+
+#parallax2 {
+    background-image: url("../images/parallax2.jpg");
+}
+
+#parallax3 {
+    background-image: url("../images/parallax3.jpg");
+}
+
+.wrapper {
+    position: relative; 
+    max-width: 96%;
+    text-align: left;
+    z-index: -1;
+    padding: 11.3% 2% 0 2%;
+}
+
+.marquee {
+    color: gold;
+    text-shadow: 3px 0 0 black;
+    font-size: 40px;
+    white-space: nowrap;
+    animation: '';
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+article {
+    position: absolute;
+    left: 7%;
+    top: 125%;
+    width: 86%;
+    z-index: -1;
+    background-image: linear-gradient(to right, rgb(3, 7, 54), red);
+    opacity: 0.8;
+}
+
+.flex {
+    position: relative;
+    align-items: flex-end;
+    left: 5%;
+    width: 90%;
+    display: flex;
+}
+
+.monthFlex {
+    flex: 33%;
+    border: solid black;
+}
+
+.details  {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    column-count: 2;
+    z-index: -1;
+    border: solid;
+    border-color: rgb(19, 223, 178);
+    text-align: justify;
+    text-justify: inter-word;
+}
+  
+h2 {
+    font-family: 'Croissant One';
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+
+section {
+    position: absolute;
+    top: 32%;
+    left: -5%;
+    width: 110%;
+}
+
+section p {
+    font-family: 'Combo';
+    font-size: 24px;
+    margin: 5% 5% 5% 5%;
+    line-height: 35px;
+    color: rgb(5, 5, 63);  
+}
+  
+section div {
+    background-color: bisque;
+    opacity: 0.7;
+}
+
+header {
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 10px;      
+}
+
+.monthFlex p {
+    font-family: 'Combo';
+    font-size: 20px;
+    margin: 5% 5% 5% 5%;
+    line-height: 35px;
+    color: rgb(247, 243, 6);  
+}
+
+article h2 {
+    text-align: center;
+    color: darkorange;
+    text-shadow: 3px 0 0 black;
+}
+
+.monthFlex p:first-child {
+    color: rgb(59, 231, 59);
+    font-size: 22px;
+}
+
+.article {
+    border: solid 1px black;
+}
+
+footer div {
+    position: absolute;
+    top: 250%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 10%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #e3fc00;
+    color: white;
+}
+
+  .facebook, .twitter, .youtube, .instagram, .linkedin {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+  footer h2 {
+    position: absolute;
+    top: 240%;
+}
+
+  .copyright {
+    text-align: center;
+}
+
+aside {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    background-color: sandybrown;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+aside p {
+    font-family: 'Combo';
+    font-size: 24px;
+    margin: 2%;
+    line-height: 35px;
+    color: rgb(43, 2, 11);    
+}
+
+.careerFooter {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+aside h2 {
+    text-align: center;
+}
